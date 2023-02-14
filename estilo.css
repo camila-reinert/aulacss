@@ -1,0 +1,53 @@
+.principal
+{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-color: violet;
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 20px;
+   /* padding-left: 50px;  centralizar
+    padding-top: 25px; */
+    display: flex;
+    flex-direction: row; /* colom serve para colocar na vertical e -row- para a horizontal*/
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center; 
+}
+.interna
+{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50px;
+   
+}
+
+.menu:hover
+{
+    background-color: rgb(79, 46, 110);
+}
+
+.menu
+{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 175px;
+    top: 0px;
+   
+}
+.centralizado
+{
+    display: flex;
+    flex-direction: row; /* colom serve para colocar na vertical e -row- para a horizontal*/
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
